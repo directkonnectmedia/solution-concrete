@@ -5,21 +5,34 @@ import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
 
 const allImages = [
-  { src: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop", alt: "Stamped concrete driveway", category: "Driveways" },
-  { src: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop", alt: "Modern concrete patio", category: "Patios" },
-  { src: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=600&h=400&fit=crop", alt: "Concrete sidewalk leading to home", category: "Sidewalks" },
-  { src: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&h=400&fit=crop", alt: "Colored concrete patio design", category: "Colors" },
-  { src: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&h=400&fit=crop", alt: "Concrete foundation work", category: "Foundations" },
-  { src: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=600&h=400&fit=crop", alt: "Decorative stamped concrete", category: "Colors" },
-  { src: "https://images.unsplash.com/photo-1600573472591-ee6c563aaec3?w=600&h=400&fit=crop", alt: "Residential driveway installation", category: "Driveways" },
-  { src: "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=600&h=400&fit=crop", alt: "Backyard patio pour", category: "Patios" },
-  { src: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=600&h=400&fit=crop", alt: "Smooth sidewalk finish", category: "Sidewalks" },
-  { src: "https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=600&h=400&fit=crop", alt: "Home extension foundation", category: "Foundations" },
-  { src: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&h=400&fit=crop", alt: "Colored concrete walkway", category: "Colors" },
-  { src: "https://images.unsplash.com/photo-1600573472572-8aba5d81f02a?w=600&h=400&fit=crop", alt: "Wide concrete driveway", category: "Driveways" },
+  { src: "/gallery/project-01.jpg", alt: "Side yard concrete slab with broom finish", category: "Driveways" },
+  { src: "/gallery/project-02.jpg", alt: "Long residential driveway with clean control joints", category: "Driveways" },
+  { src: "/gallery/project-03.jpg", alt: "Backyard patio extension under covered pergola", category: "Patios" },
+  { src: "/gallery/project-04.jpg", alt: "Backyard concrete pad with smooth dark finish", category: "Patios" },
+  { src: "/gallery/project-05.jpg", alt: "Large backyard patio with string lights overhead", category: "Patios" },
+  { src: "/gallery/project-06.jpg", alt: "Curved-edge patio with dark finish and gravel border", category: "Patios" },
+  { src: "/gallery/project-07.jpg", alt: "Patio with custom curved cutout around tree", category: "Patios" },
+  { src: "/gallery/project-08.jpg", alt: "Narrow side yard walkway along house wall", category: "Sidewalks" },
+  { src: "/gallery/project-09.jpg", alt: "Full front yard driveway with smooth finish", category: "Driveways" },
+  { src: "/gallery/project-10.jpg", alt: "Side yard walkway connecting to paver patio", category: "Sidewalks" },
+  { src: "/gallery/project-11.jpg", alt: "Large backyard concrete slab for shed and storage", category: "Foundations" },
+  { src: "/gallery/project-12.jpg", alt: "Backyard slab with broom finish next to shed", category: "Foundations" },
+  { src: "/gallery/project-13.jpg", alt: "Concrete pad under carport at mobile home", category: "Driveways" },
+  { src: "/gallery/project-14.jpg", alt: "Covered carport concrete pad with smooth finish", category: "Driveways" },
+  { src: "/gallery/project-15.jpg", alt: "Close-up of fresh concrete with clean joints", category: "Driveways" },
+  { src: "/gallery/project-16.jpg", alt: "Large patio slab with broom finish detail", category: "Patios" },
+  { src: "/gallery/project-17.jpg", alt: "Full backyard patio pour at mobile home", category: "Patios" },
+  { src: "/gallery/project-18.jpg", alt: "Side yard driveway extension next to garage", category: "Driveways" },
+  { src: "/gallery/project-19.jpg", alt: "Curved patio pour extending from covered porch", category: "Patios" },
+  { src: "/gallery/project-20.jpg", alt: "Large patio and walkway at covered back porch", category: "Patios" },
+  { src: "/gallery/project-21.jpg", alt: "Concrete pad leading to backyard storage shed", category: "Foundations" },
+  { src: "/gallery/project-22.jpg", alt: "Crew smoothing fresh concrete with bull float", category: "Patios" },
+  { src: "/gallery/project-23.jpg", alt: "Patio extension being finished in backyard", category: "Patios" },
+  { src: "/gallery/project-24.jpg", alt: "Driveway walkway extension with fresh pour", category: "Sidewalks" },
+  { src: "/gallery/project-25.jpg", alt: "Curved sidewalk path wrapping around a tree", category: "Sidewalks" },
 ];
 
-const categories = ["All", "Driveways", "Sidewalks", "Patios", "Foundations", "Colors"];
+const categories = ["All", "Driveways", "Patios", "Sidewalks", "Foundations"];
 
 export default function GalleryPage() {
   const [filter, setFilter] = useState("All");
@@ -41,8 +54,7 @@ export default function GalleryPage() {
               Our Work Gallery
             </h1>
             <p className="text-dark-muted mt-4 max-w-xl mx-auto">
-              Browse our recent projects across the Phoenix West Valley.
-              These are placeholder images — real project photos coming soon.
+              Browse our recent concrete projects across the Phoenix West Valley.
             </p>
           </div>
 

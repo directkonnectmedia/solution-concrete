@@ -3,12 +3,12 @@ import { useState } from "react";
 import Link from "next/link";
 
 const galleryImages = [
-  { src: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=400&fit=crop", alt: "Stamped concrete driveway", category: "Driveways" },
-  { src: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop", alt: "Modern concrete patio", category: "Patios" },
-  { src: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=600&h=400&fit=crop", alt: "Concrete sidewalk", category: "Sidewalks" },
-  { src: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&h=400&fit=crop", alt: "Colored concrete patio", category: "Colors" },
-  { src: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&h=400&fit=crop", alt: "Concrete foundation", category: "Foundations" },
-  { src: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=600&h=400&fit=crop", alt: "Decorative concrete work", category: "Colors" },
+  { src: "/gallery/project-02.jpg", alt: "Residential driveway with broom finish", category: "Driveways" },
+  { src: "/gallery/project-06.jpg", alt: "Backyard patio with curved edges and dark finish", category: "Patios" },
+  { src: "/gallery/project-18.jpg", alt: "Side yard driveway extension next to garage", category: "Driveways" },
+  { src: "/gallery/project-22.jpg", alt: "Crew smoothing fresh concrete pour with bull float", category: "Patios" },
+  { src: "/gallery/project-25.jpg", alt: "Curved sidewalk path wrapping around a tree", category: "Sidewalks" },
+  { src: "/gallery/project-09.jpg", alt: "Full front yard driveway pour with smooth finish", category: "Driveways" },
 ];
 
 export default function GalleryPreview() {
